@@ -17,7 +17,7 @@ formDados.addEventListener('submit', (evt) => {
     let ltinta = area / 2 
 
     divResultado.innerHTML = `Esta é a area a ser pintada ${area.toFixed(2)}m2`
-    divResultado.innerHTML =  `Sera necessária essa quantidade de tinta${ltinta.toFixed(2)}litros`
+    divResultado.innerHTML =  `Sera necessária essa quantidade de tinta${ltinta.toFixed(2)} litros`
 
 
 
