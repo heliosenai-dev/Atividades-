@@ -15,7 +15,7 @@ let consumed = parseFloat(forme_num.get('consumed'));
 let quantcombus = Distancekm / consumed;
 let valorTotal = quantcombus * prelitro;
 
-let mensagem = "--- RESULTADOS DA VIAGEM ---\n";
+
 divResultado.innerHTML = "Quantidade de combustível necessária: " + quantcombus.toFixed(2) + " litros\n";
  divResultado.innerHTML = "Valor total a pagar: R$ " + valorTotal.toFixed(2);
      
