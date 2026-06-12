@@ -1,0 +1,57 @@
+/* Define o bloco geral que engloba tudo na tela */
+#geral {
+    margin: 20px auto; /* Centraliza a div na tela */
+    padding: 20px;
+    background-color: azure;
+    width: 500px;
+    min-height: 450px;
+}
+
+   /*Estilos específicos para textos de cabeçalho */
+.titulo { 
+    text-align: center;
+    color: brown;
+.subtitulo{
+    text-align: center;
+    color: rgb(83, 206, 27);
+    font-size: 30px;
+}
+}
+
+/*  Estilização do fundo do form e seus inputs/labels */
+form {
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 20px 0px;
+    width: 400px;
+    border-radius: 8px;
+}
+
+/* Organiza os campos um embaixo do outro */
+label, input {
+    display: block;
+    margin: 10px 0px;
+}
+
+/* Destaque visual para os rótulos (labels) */
+label {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+   /* Caixa onde o JavaScript vai injetar a resposta */
+#resultado {
+    width: 400px;
+    height: 250px;
+    background-color: bisque;
+    padding: 20px;
+    
+    /* Centraliza o texto do resultado  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /*  usa ponto para decimais */
+    font-size: 1.2rem; 
+    border-radius: 8px;
+}
