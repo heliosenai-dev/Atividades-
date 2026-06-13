@@ -14,13 +14,13 @@ let nota1 = parseFloat(("Digite a primeira nota:"));
 let nota2 = parseFloat(("Digite a segunda nota:"));
 let nota3 = parseFloat(("Digite a terceira nota:"));
 // Calculo de notas
-let media = (nota1 + nota2 + nota3) / 3;
+let media = nota1 + nota2 + nota3 / 3;
 // Decisão 
-let situacao;
     if (media >= 6) {
-        situacao = "Aprovado";
-    } else {
-        situacao = "Reprovado";
-    }
+        document.getElementById("resultado").innerHTML = " aprovado "}
+     else {
+        document.getElementById("resultado").innerHTML = " reprovado "}
     
+   
+
 })
